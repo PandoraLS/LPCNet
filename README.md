@@ -6,6 +6,12 @@ Low complexity implementation of the WaveRNN-based LPCNet algorithm, as describe
 - J.-M. Valin, J. Skoglund, [A Real-Time Wideband Neural Vocoder at 1.6 kb/s Using LPCNet](https://jmvalin.ca/papers/lpcnet_codec.pdf), *Proc. INTERSPEECH*, arxiv:1903.12087, 2019.
 - J. Skoglund, J.-M. Valin, [Improving Opus Low Bit Rate Quality with Neural Speech Synthesis](https://jmvalin.ca/papers/opusnet.pdf), *Proc. INTERSPEECH*, arxiv:1905.04628, 2020.
 
+# 调试命令
+```bash
+-encode C:\workspace\LPCNet\Ch_f2.pcm C:\workspace\LPCNet\Ch_f2.bin
+-decode C:\workspace\LPCNet\Ch_f2.bin C:\workspace\LPCNet\Ch_f2_dec.pcm
+```
+
 # Introduction
 
 Work in progress software for researching low CPU complexity algorithms for speech synthesis and compression by applying Linear Prediction techniques to WaveRNN. High quality speech can be synthesised on regular CPUs (around 3 GFLOP) with SIMD support (SSE2, SSSE3, AVX, AVX2/FMA, NEON currently supported). The code also supports very low bitrate compression at 1.6 kb/s.
