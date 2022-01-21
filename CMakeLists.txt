@@ -24,6 +24,7 @@ add_executable(lpcnet_demo
         src/lpcnet.c
         src/lpcnet_dec.c
         src/lpcnet_enc.c
+        src/lpcnet_plc.c
         src/lpcnet_demo.c
         src/lpcnet_private.h
         src/nnet.c

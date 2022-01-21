@@ -1,0 +1,2 @@
+-encode D:\github_code\MultiLPCNet\PandoraLS\LPCNet\Ch_f2.pcm D:\github_code\MultiLPCNet\PandoraLS\LPCNet\Ch_f2.bin
+-decode D:\github_code\MultiLPCNet\PandoraLS\LPCNet\Ch_f2.bin D:\github_code\MultiLPCNet\PandoraLS\LPCNet\Ch_f2-dec.pcm
